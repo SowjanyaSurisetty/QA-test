@@ -141,8 +141,9 @@ public class TestRunner {
   -	Enter the Test Suite name and select format as .robot file and click Finish
   -	This will create new suite under the project
   
-'''Python 
+'''RobotFramework
 
+'''Python
 *** Settings ***
 Library    SeleniumLibrary
 *** variables ***
