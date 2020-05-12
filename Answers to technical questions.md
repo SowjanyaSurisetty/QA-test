@@ -1,6 +1,6 @@
 # 1.	How long did you spend on the technical test? What would you add to your solution if you had more time? If you didn't spend much time on the technical test, then use this as an opportunity to explain what you would add.
 
-I spend almost 4 hours to complete this task.I used Robotframework but stepdefinitions are generated in cucumber framework If given more time, I could also generate step definitions by using cucumber framework and I could implement Page Object model and can keep more optimistic.
+It took almost 3 hours to complete this test.I used Robotframework but step definitions are generated in cucumber framework If given more time, I could also generate step definitions by using cucumber framework and I could implement Page Object model and can keep more optimistic.
 
 # 2.	What do you think is the most interesting trend in test automation?
 
