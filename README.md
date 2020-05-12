@@ -46,7 +46,7 @@ Scenario: Search for restaurants in an area
   -	Right click on the project and select New->Robot Test Suite
   -	Enter the Test Suite name and select format as .robot file and click Finish
   -	This will create new suite under the project
-''' python
+''' python 
 *** Settings ***
 Library    SeleniumLibrary
 *** variables ***
