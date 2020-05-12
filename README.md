@@ -50,16 +50,16 @@ Feature: Just_Eat
 
 ## Step Definition
 
-package stepDefinitions;
+	package stepDefinitions;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+	import org.openqa.selenium.By;
+	import org.openqa.selenium.WebDriver;
+	import org.openqa.selenium.chrome.ChromeDriver;
 
-import io.cucumber.java.en.*;
-import junit.framework.Assert;
+	import io.cucumber.java.en.*;
+	import junit.framework.Assert;
 
-public class Just_Eat_Steps {
+	public class Just_Eat_Steps {
 	
 	WebDriver driver= new ChromeDriver();
 	@Given("I Launch browser")
@@ -132,8 +132,10 @@ public class Just_Eat_Steps {
   - Open Robot Perspective
   - Navigate to Windows->Preferences
   - Select Robot Framework->Installed frameworks
-  - Click on Apply and close
+  - Click on Apply and close 
+  
 ## Create a Robot Project
+
   - Select File->New->Robot Project
   -	Enter Project name and click Finish
   -	TestProj
@@ -198,11 +200,15 @@ public class Just_Eat_Steps {
     		close Browser    
 # When I execute this code I will get three reports
 
-file:///C:/Users/sowja/eclipse-workspace/robot_projects/report.html
-file:///C:/Users/sowja/eclipse-workspace/robot_projects/log.html
-file:///C:/Users/sowja/eclipse-workspace/robot_projects/output.xml
+	- file:///C:/Users/sowja/eclipse-workspace/robot_projects/report.html 
+
+	- file:///C:/Users/sowja/eclipse-workspace/robot_projects/log.html
+
+	- file:///C:/Users/sowja/eclipse-workspace/robot_projects/output.xml
+
 
 ## First Report:
+
 file:///C:/Users/sowja/eclipse-workspace/robot_projects/report.html
 
 ![](FirstReport.png)
@@ -211,6 +217,7 @@ file:///C:/Users/sowja/eclipse-workspace/robot_projects/report.html
  
  
 ## Second Report: 
+
 file:///C:/Users/sowja/eclipse-workspace/robot_projects/log.html
 
  ![](SecondReport.png)
