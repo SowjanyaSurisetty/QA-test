@@ -98,36 +98,44 @@ Then_Check_out
 And_Close_Browser
     close Browser    
 When I execute this code I will get three reports
-First Report:
+###First Report:
 file:///C:/Users/sowja/eclipse-workspace/robot_projects/report.html
+
 ![](FirstReport.png)
 
 ![](FirstReport1.png)
  
  
-Second Report: file:///C:/Users/sowja/eclipse-workspace/robot_projects/log.html
+###Second Report: file:///C:/Users/sowja/eclipse-workspace/robot_projects/log.html
+
  ![](SecondReport.png)
  
  ![](SecondReport1.png)
  
-This is the Scenario1:
+###This is the Scenario1:
+
 ![](Scenario1.png)
  
 
-This is Scenario 2:
+###This is Scenario 2:
+
 ![](Scenario2.png)
  
-Scenario 3:
+###Scenario 3:
+
 ![](Scenario3.png)
  
 
 
 
-Scenario 4: 
+###Scenario 4: 
+
 ![](Scenario4.png)
  
-Third Report:
+###Third Report:
+
 file:///C:/Users/sowja/eclipse-workspace/robot_projects/output.xml
+
 ![](ThirdReport.png)
  
 
