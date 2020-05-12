@@ -100,6 +100,7 @@ And_Close_Browser
 When I execute this code I will get three reports
 First Report:
 file:///C:/Users/sowja/eclipse-workspace/robot_projects/report.html
+![](FirstReport.png)
  
  
 Second Report: file:///C:/Users/sowja/eclipse-workspace/robot_projects/log.html
