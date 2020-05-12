@@ -48,7 +48,7 @@ Feature: Just_Eat
 
 # This is the sample step definition which i generated using Cucumber with Java
 
-## Step Dedfinition
+## Step Definition
 
 package stepDefinitions;
 
@@ -232,6 +232,6 @@ file:///C:/Users/sowja/eclipse-workspace/robot_projects/output.xml
 ![](ThirdReport.png)
 
 # My Code Execution Video
-![]Just_EatV1.mp4
+![](Just_EatV1.mp4)
  
 
