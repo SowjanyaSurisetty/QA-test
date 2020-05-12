@@ -101,24 +101,33 @@ When I execute this code I will get three reports
 First Report:
 file:///C:/Users/sowja/eclipse-workspace/robot_projects/report.html
 ![](FirstReport.png)
+
+![](FirstReport1.png)
  
  
 Second Report: file:///C:/Users/sowja/eclipse-workspace/robot_projects/log.html
+ ![](SecondReport.png)
  
+ ![](SecondReport1.png)
  
 This is the Scenario1:
+![](Scenario1.png)
  
 
 This is Scenario 2:
+![](Scenario2.png)
  
 Scenario 3:
+![](Scenario3.png)
  
 
 
 
-Scenario 4: Which is complete coverage
+Scenario 4: 
+![](Scenario4.png)
  
 Third Report:
 file:///C:/Users/sowja/eclipse-workspace/robot_projects/output.xml
+![](ThirdReport.png)
  
 
