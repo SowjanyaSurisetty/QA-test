@@ -234,6 +234,7 @@ file:///C:/Users/sowja/eclipse-workspace/robot_projects/output.xml
 
 ## My Code Execution Video 
 
-![](Just_EatV1.mp4)
+![](https://github.com/SowjanyaSurisetty/QA-test/blob/master/Just_EatV1.mp4)
+
  
 
