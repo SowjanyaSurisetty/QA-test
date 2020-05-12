@@ -86,6 +86,8 @@ public class Just_Eat_Steps {
 }
 
 # TestRunner
+
+''' Java
 package testRunner;
 
 import org.junit.runner.RunWith;
@@ -107,8 +109,7 @@ public class TestRunner {
 }
 
 
-
-##Here I used RobotFramework for that tool I Installed the following for the set up
+# Here I used RobotFramework for that tool I Installed the following for the set up
 
 - Install Python
 - Install WX Python
@@ -139,7 +140,9 @@ public class TestRunner {
   -	Right click on the project and select New->Robot Test Suite
   -	Enter the Test Suite name and select format as .robot file and click Finish
   -	This will create new suite under the project
-''' python 
+  
+'''Python 
+
 *** Settings ***
 Library    SeleniumLibrary
 *** variables ***
@@ -191,7 +194,8 @@ Then_Check_out
 And_Close_Browser
     close Browser    
 When I execute this code I will get three reports
-###First Report:
+
+## First Report:
 file:///C:/Users/sowja/eclipse-workspace/robot_projects/report.html
 
 ![](FirstReport.png)
@@ -199,39 +203,37 @@ file:///C:/Users/sowja/eclipse-workspace/robot_projects/report.html
 ![](FirstReport1.png)
  
  
-###Second Report: file:///C:/Users/sowja/eclipse-workspace/robot_projects/log.html
+## Second Report: file:///C:/Users/sowja/eclipse-workspace/robot_projects/log.html
 
  ![](SecondReport.png)
  
  ![](SecondReport1.png)
  
-###This is the Scenario1:
+## This is the Scenario1:
 
 ![](Scenario1.png)
  
 
-###This is Scenario 2:
+## This is Scenario 2:
 
 ![](Scenario2.png)
  
-###Scenario 3:
+## Scenario 3:
 
 ![](Scenario3.png)
  
-
-
-
-###Scenario 4: 
+## Scenario 4: 
 
 ![](Scenario4.png)
  
-###Third Report:
+## Third Report:
 
 file:///C:/Users/sowja/eclipse-workspace/robot_projects/output.xml
 
 ![](ThirdReport.png)
 
-# My Code Execution Video
+## My Code Execution Video 
+
 ![](Just_EatV1.mp4)
  
 
