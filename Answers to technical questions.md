@@ -72,15 +72,18 @@ Login Process is should be optimised
 Also CheckOut Process should be optimised
 
 # 5.	Please describe yourself using JSON.
-This is Me
- {
-“First Name” 	: ”Sowjanya “,
-“Last Name” 	: “Surisetty”,
-“Native” 	: “India”,
-“Based In”	: “Canada”,
- “Education”	: “Master Degree in Computers Science”
- “Interests In”	: “Programming”,
-  “Learning New Technologies”
-“Exploring New Places”
-}
+
+''' Json
+
+        This is Me
+        {
+        “First Name” 	: ”Sowjanya “,
+        “Last Name” 	: “Surisetty”,
+        “Native” 	: “India”,
+        “Based In”	: “Canada”,
+         “Education”	: “Master Degree in Computers Science”
+         “Interests In”	: “Programming”,
+        “Learning New Technologies”
+        “Exploring New Places”
+        }
 
