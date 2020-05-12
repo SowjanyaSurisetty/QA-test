@@ -64,7 +64,9 @@ Pom.XML
   - Some of the restaurants have no proper logos.
   - Cross Browsing  Testing Must be done. I checked in Internet Explorer, Firefox, MicrosoftEdge and Chrome Browsers.
       - Bug which I observed in IE
+      
       ![](Bug.png)
+      
 Expected Result : These should be white in color
 Login Process is should be optimised
 Also CheckOut Process should be optimised
