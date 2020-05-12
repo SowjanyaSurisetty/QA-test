@@ -1,10 +1,13 @@
-# 1.	How long did you spend on the technical test? What would you add to your solution if you had more time? If you didn't spend much time on the technical test, then use this as an opportunity to explain what you would add.	
-I spend almost 4 hours to complete the task. If given more time I could implement Page Object model and can keep more optimistic.
+# 1.	How long did you spend on the technical test? What would you add to your solution if you had more time? If you didn't spend much time on the technical test, then use this as an opportunity to explain what you would add.
+
+I spend almost 4 hours to complete this task.I used Robotframework but stepdefinitions are generated in cucumber framework If given more time, I could also generate step definitions by using cucumber framework and I could implement Page Object model and can keep more optimistic.
 
 # 2.	What do you think is the most interesting trend in test automation?
+
 The most important thing in testing is when ever a new feature is developed Tester need not test the all the test cases manually again and again.
 I can just Automate the new feature for already existing automated test cases which saves lot of time and cost.
-Also the most important trend as per 2020 QA Automation testing includes.. 
+Also the most important trend as per 2020 QA Automation testing includes.
+
         - Web Testing (tools used Selenium,Cucumber,Cypress)
         - API Testing (Rest Assured,Postman,SoapUI)
         - Mobile Testing(Appium)
@@ -18,13 +21,19 @@ Also the most important trend as per 2020 QA Automation testing includes..
                 - IoT Testing
                 - Block Chain Testing
 # 3. How would you implement test automation in a legacy application? Have you ever had to do this?
-I implemented test automation by inspecting elements on the webpage. The most important thing is to identify/Locating elements by using XPATH expressions
-Operated and observed the result.
-    - Locate
-    - Operate and
-    - Observe
+
+I implemented test automation by inspecting elements on the webpage. The most important thing is to identify/Locating elements by using XPATH expressions Operated and observed the result.
+
+        - Locate
+        - Operate and
+        - Observe
 The strategy of testing is to check the actual result is satisfying the expected result(requirement Specifications)
-I automated multiple applications by implementing Data Driven Framework, Hybrid Driven Framework and Behaviour Driven Framework. The main advantage of BDD framework is even a non-technical persons can also understand.
+I automated multiple applications by implementing
+
+        -  Data Driven Framework
+        -  Hybrid Driven Framework and 
+        -  Behaviour Driven Framework. 
+ The main advantage of BDD framework is even a non-technical persons can also understand.
 I implemented Data Driven, Hybrid Driven and also BDD Framework by adding all the required dependencies in POM file in the Maven Project and added Page Object Model which we maintain each objects or elements can be maintained page wise. So when ever a new feature is added into the application we can easily identify by its page. Which is easy to maintain in future.
  # Sample Framework Skeleton :
 Project Name
