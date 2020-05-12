@@ -1,4 +1,5 @@
 # QA-test
+
 JUST EAT has a website available at http://www.just-eat.co.uk/  that you can use to find takeaway restaurants in a postcode area.		
 The Technical test consists of 2 tasks:
 1.	 Write the step definitions for the below scenario.
@@ -14,8 +15,100 @@ Scenario: Search for restaurants in an area
 2.	Add two more scenarios, with corresponding step definitions, which you feel would enhance the test coverage of the site.
 
 
+      Scenario
+          Given I Launch browser
+	        When I open url "https://www.just-eat.co.uk/"
+	        Then I verify that the logo on page
+	        And  Close Browser
+      
+      Scenario 
+          - Given I want restaurant "Pizza- Hut Shell Menu"
+          - When  I Click on Search
+          - Then I should see that restaurant 
+      Scenario
+          - Given I want Item "Pizza"
+          - Then I Selected an Option
+          - when I chose an type of crust "small Crust"
+          - then chose a "classic crust with garlic"
+          - Then click on "Skip Extras"
+          - Then click on "Add to Basket"
+          - Then Click on "Check Out"
+          - And Click on "Close Browser"
+# Feature File
 
-#Here I used RobotFramework for that tool I Installed the following for the set up
+''' Java
+Feature: Just_Eat
+
+	Scenario : Logo Presence on the Just_Eat Home Page
+	Given I Launch browser
+	When I open Just Eat WebApplication
+	Then I verify that the logo on page
+	And  Close Browser
+	
+
+# This is the sample step definition which i generated using Cucumber with Java
+
+## Step Dedfinition
+
+package stepDefinitions;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import io.cucumber.java.en.*;
+import junit.framework.Assert;
+
+public class Just_Eat_Steps {
+	
+	WebDriver driver= new ChromeDriver();
+	@Given("I Launch browser")
+	public void i_Launch_browser() {
+		System.setProperty("webdriver.chrome.driver","c://Drivers//chromedriver_win32//chromedriver.exe");
+	   
+	}
+
+	@When("I open Just Eat WebApplication")
+	public void i_open_Just_Eat_Website() {
+	    driver.get("https://www.just-eat.co.uk/");
+	}
+
+	@Then("I verify that the logo on page")
+	public void i_verify_that_the_logo_on_page() {
+	 boolean status= driver.findElement(By.xpath("//img[@class='logo-image']")).isDisplayed();
+	 Assert.assertEquals(true, status);
+	}
+
+	@And("Close Browser")
+	public void close_Browser() {
+	    driver.quit();
+	}
+}
+
+# TestRunner
+package testRunner;
+
+import org.junit.runner.RunWith;
+
+import io.cucumber.junit.Cucumber;
+import io.cucumber.junit.CucumberOptions;
+
+
+@RunWith(Cucumber.class)
+@CucumberOptions(features = ".//Features/Just_Eat.feature",
+			glue = "stepDefinitions",
+			dryRun =true,
+			monochrome= true,
+			plugin= {"pretty","html:test-output"}
+			)
+		
+public class TestRunner {
+
+}
+
+
+
+##Here I used RobotFramework for that tool I Installed the following for the set up
 
 - Install Python
 - Install WX Python
@@ -137,5 +230,8 @@ file:///C:/Users/sowja/eclipse-workspace/robot_projects/report.html
 file:///C:/Users/sowja/eclipse-workspace/robot_projects/output.xml
 
 ![](ThirdReport.png)
+
+# My Code Execution Video
+![]Just_EatV1.mp4
  
 
