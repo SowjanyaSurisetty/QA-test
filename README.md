@@ -15,37 +15,38 @@ Scenario: Search for restaurants in an area
 
 
 
-Here I used RobotFramework for that tool I Installed the following for the set up
-Install Python
-Install WX Python
-Install PyWin32
-Install Pip
-Pip install Robot Framework
-Pip install Docutils
-Pip install Xlrd
-Pip install Xlutils
-Pip install robotframework-excellibrary
-Pip install robotframework-selenium2library
-Pip install robotframework-seleniumlibrary
-Pip install robotframework-ride
-Pip install robotframework-pabot
-Check the pip list
-Install Eclipse
-Install RED-Robot Editor from Eclipse Market Place
-Then  your Robot Framework IDE will be ready in Eclipse
-Open Robot Perspective
-Navigate to Windows->Preferences
-Select Robot Framework->Installed frameworks
-Click on Apply and close
-Create a Robot Project
-1.	Select File->New->Robot Project
-2.	Enter Project name and click Finish
-3.	TestProj
-4.	A new Robot project will be created along with its libraries
-5.	Right click on the project and select New->Robot Test Suite
-6.	Enter the Test Suite name and select format as .robot file and click Finish
-7.	This will create new suite under the project
+#Here I used RobotFramework for that tool I Installed the following for the set up
 
+- Install Python
+- Install WX Python
+- Install PyWin32
+- Install Pip
+- Pip install Robot Framework
+- Pip install Docutils
+- Pip install Xlrd
+- Pip install Xlutils
+- Pip install robotframework-excellibrary
+- Pip install robotframework-selenium2library
+- Pip install robotframework-seleniumlibrary
+- Pip install robotframework-ride
+- Pip install robotframework-pabot
+- Check the pip list
+- Install Eclipse
+- Install RED-Robot Editor from Eclipse Market Place
+- Then  your Robot Framework IDE will be ready in Eclipse
+  - Open Robot Perspective
+  - Navigate to Windows->Preferences
+  - Select Robot Framework->Installed frameworks
+  - Click on Apply and close
+## Create a Robot Project
+  - Select File->New->Robot Project
+  -	Enter Project name and click Finish
+  -	TestProj
+  -	A new Robot project will be created along with its libraries
+  -	Right click on the project and select New->Robot Test Suite
+  -	Enter the Test Suite name and select format as .robot file and click Finish
+  -	This will create new suite under the project
+''' RobotFramework
 *** Settings ***
 Library    SeleniumLibrary
 *** variables ***
