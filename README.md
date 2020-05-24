@@ -1,3 +1,5 @@
+# My project Path is below which allows you to pull and execute the code
+# https://github.com/SowjanyaSurisetty/QA_Automation_SampleProject_1/tree/master/SampleProject_1
 # QA-test
 
 JUST EAT has a website available at http://www.just-eat.co.uk/  that you can use to find takeaway restaurants in a postcode area.		
