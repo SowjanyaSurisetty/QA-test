@@ -249,9 +249,7 @@ file:///C:/Users/sowja/eclipse-workspace/robot_projects/output.xml
 
 ![](ThirdReport.png)
 
-## My Code Execution Video 
 
-![](Just_EatV1.mp4)
 
  
 
