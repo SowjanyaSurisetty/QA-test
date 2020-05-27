@@ -1,4 +1,4 @@
-# My project Path is below which allows you to pull and execute the code
+project Path is below which allows you to pull and execute the code
 ## https://github.com/SowjanyaSurisetty/QA_Automation_SampleProject_1/tree/master/SampleProject_1
 # QA-test
 
