@@ -83,7 +83,9 @@ Also CheckOut Process should be optimised
         “Based In”	: “Canada”,
          “Education”	: “Master Degree in Computers Science”
          “Interests In”	: “Programming”,
-        “Learning New Technologies”
-        “Exploring New Places”
+                           “Learning New Technologies”
+                            “Exploring New Places”
+          "Technical Skills"     :"HTML","CSS","JAVA SCRIPT","JAVA","PYTHON","SQL","SELENIUM","APPIUM","ROBOT FRAMEWORK","CUCUMBER","SOAPUI","POSTMAN"
+    
         }
 
